@@ -1,0 +1,39 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+    background: #f2c6a0;
+}
+.hr1{
+    border: 1.5px solid #D9843B;
+    opacity: 1;
+    margin: 0;
+}
+.hr2{
+    border: 2.5px solid #8c4303;
+    opacity: 1;
+    margin: 0;
+}
+.custom-hyperlink{
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.custom-hyperlink:hover,.active{
+    transition: all 0.3s ease-in-out;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #F2BF27;
+}
+.custom-card{
+    width: 70px;
+    height: 70px;
+}
+.randomMealBtn:hover{
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    background-color: #F2BF27;
+}
